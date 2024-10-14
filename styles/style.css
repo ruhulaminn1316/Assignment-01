@@ -103,7 +103,7 @@ margin-top: 24px;
     margin:0px,249px, 0px,245px;
 }
 .main-02{
-
+margin-top:50px;
 display: flex;
 text-align: left;
  justify-content:center; 
@@ -150,4 +150,81 @@ opacity: 0.7;
 padding: 12px 20px 12px 20px;
 
 
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top:50px;
+    border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+
+}
+.main-03{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 20px;
+margin-bottom:20px;
+}
+.main-04{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-left:20px;
+margin-bottom: 32px;
+
+}
+.container-description{
+
+}
+.battun-01{
+    margin-left: 20px;
+}
+
+.container-05{
+    margin-top:50px;
+    margin-bottom: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.sub-container{
+    margin-right:60px;
+    
+}
+.sub-container-01{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.sub-container-02{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px ;
 }
