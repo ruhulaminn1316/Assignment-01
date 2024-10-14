@@ -65,5 +65,56 @@ margin-top:32px;
 /* header End */
 
 /* Main part */
+#main-part-01{
+width: auto;
+height: auto;
+align-items: center;
+padding: 80px 97px 80px 97px;
+margin:auto;
+
+}
 
 
+/* .main-01{
+    text-align: center;
+} */
+.why-web{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.why-web-01{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+
+/* main-part-02 */
+.i-will-do{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.i-will-must{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
