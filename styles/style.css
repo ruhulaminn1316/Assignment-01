@@ -228,3 +228,42 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 32px ;
 }
+
+/* my inspairation part */
+.inspiration{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-h{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration-p{
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.youtube{
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    /* width: 1140px; */
+    /* height: 614px; */
+    margin-bottom: 50px;
+
+}
