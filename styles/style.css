@@ -267,3 +267,86 @@ margin-bottom: 50px;
     margin-bottom: 50px;
 
 }
+.target{
+    margin-top:30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.target-01{
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-02{
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+.card{
+    display:grid;
+    grid-template-rows:(3,a);
+    align-items: center;
+    justify-content: space-between;
+    margin-left:20px;
+    padding:70px;
+    
+}
+.card-title{
+    padding: auto;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+
+}
+.card-title-01{
+    padding: auto;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-title-03{
+    
+    padding: auto;
+    background-color: rgba(247, 8, 139, 0.05);
+    border-radius: 16px;
+
+}
+.c1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 25px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.c2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.c3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
