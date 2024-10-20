@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+body{
+    font-family:Azeret Mono;
+}
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 /* header part */
 #hero{
@@ -64,21 +66,22 @@ margin-top:32px;
 }
 /* header End */
 
-/* Main part */
-#main-part-01{
-width: auto;
-height: auto;
-align-items: center;
-padding: 80px 97px 80px 97px;
-margin:auto;
+/* main part start */
+.title-why-web{
+    width:auto;
+    padding-left: 47px;
+    padding-right: 47px;
+    padding-bottom: 48px;
+}
+.why-web{
+    width:1140px;
+    /* height:1393px; */
+    padding:80px 97px 80px 97px;
+    /* border: 5px solid green; */
+    text-align: center;
 
 }
-
-
-/* .main-01{
-    text-align: center;
-} */
-.why-web{
+.why-web-h2{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -86,35 +89,25 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+/* width:852px; */
+padding-left: 47px;
+padding-right: 47px;
+
 }
-.why-web-01{
+.why-web-p{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
-margin-top: 24px;
+opacity: 0.7;
+/* width:852px; */
+padding:24px 47px 48px 47px;
 }
 
-/* main-part-02 */
-#main-part-02{
-    margin:0px,249px, 0px,245px;
-}
-.main-02{
-margin-top:50px;
-display: flex;
-text-align: left;
- justify-content:center; 
- border-radius: 16px; 
- background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-.cover-img-02{
-    margin-right: 20px;
-}
-
-}
-.i-will-do{
+.div-01-h2{
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -122,8 +115,10 @@ text-align: left;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
+    padding-right: 87px;
 }
-.yes-i-must{
+.div-01-p{
+    margin-top:16px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -131,12 +126,10 @@ text-align: left;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 32px;
-    margin-right: 75px;
-    margin-top: 10px;
-}
+    opacity: 0.7;
 
-.battun{
+}
+.btn-div{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -148,86 +141,77 @@ text-align: left;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
 padding: 12px 20px 12px 20px;
-
-
+margin-top: 32px;
+margin-bottom: 10px;
+margin-left: 0px;
+display: block;
 }
-
-
-.container{
+.div-01{
     display: flex;
-    justify-content: center;
-    text-align: left;
-    align-items: center;
-    margin-top:50px;
+    justify-content: space-around;
     border-radius: 16px;
-background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-
-
-}
-.main-03{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin-left: 20px;
-margin-bottom:20px;
-}
-.main-04{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin-left:20px;
-margin-bottom: 32px;
-
-}
-.container-description{
-
-}
-.battun-01{
-    margin-left: 20px;
-}
-
-.container-05{
-    margin-top:50px;
-    margin-bottom: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: left;
-border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
-.sub-container{
-    margin-right:60px;
+.div-title{
+    width:477px;
+}
+.img-01{
+    width: 259.56px;
+    height: 217.01px;
+    /* border: 2px solid ; */
+}
+a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    cursor:pointer;
+}
+/* div --02 */
+.div-02{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+padding:48px;
+border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+div-title-02{
     
 }
-.sub-container-01{
+.div-02-h2{
     color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 20px;
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    color:rgba(13, 19, 33, 0.7);
+
 }
-.sub-container-02{
+.div-02-p-02{
+    margin-top:16px;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 32px ;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+
 }
+/* div-----------03 */
+.div-03{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 170px;
+}
+
+
+
 
 /* my inspairation part */
 .inspiration{
