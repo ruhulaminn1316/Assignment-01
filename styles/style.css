@@ -60,7 +60,7 @@ border-radius: 8px;
 background: rgb(13, 19, 33);
 border: none;
 margin-top:32px;
-/* cursor: pointer; */
+cursor: pointer;
 
 
 }
@@ -257,26 +257,12 @@ margin-bottom: 151px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.target{
-    margin-top:30px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
+/* my target section and card section */
+.my-target{
+    margin-left: 150px;
+    margin-right: 150px;
 }
-.target-01{
-    margin-top: 10px;
+.my-target-h2{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -284,9 +270,9 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 24px;
 }
-.target-02{
-    margin-top: 10px;
+.my-target-p{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -294,60 +280,79 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
-margin-bottom: 30px;
+padding-right: 97px;
+padding-left: 97px;
 }
+
 .card{
-    display:grid;
-    grid-template-rows:(3,a);
-    align-items: center;
-    justify-content: space-between;
-    margin-left:20px;
-    padding:70px;
-    
-}
-.card-title{
-    padding: auto;
-    border-radius: 16px;
-    background-color: rgba(255, 76, 30, 0.05);
+display: flex;
+margin-top: 48px;
+justify-content:center;
+align-items: center;
+
 
 }
-.card-title-01{
-    padding: auto;
+.html{
     border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05);
+    background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+margin-right: 24px;
+margin-bottom: 111px;
 }
-.card-title-03{
-    
-    padding: auto;
-    background-color: rgba(247, 8, 139, 0.05);
-    border-radius: 16px;
-
-}
-.c1{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 25px;
-font-weight: 800;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-}
-.c2{
+.html-h{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 14px;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+margin-bottom: 8px;
+
+}
+.html-p{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 24px;
+
 }
-.c3{
+.html-a{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 14px;
+font-size: 16px;
 font-weight: 700;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 }
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.css{
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+/* end Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
